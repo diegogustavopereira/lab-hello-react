@@ -1,0 +1,97 @@
+.LandingPage {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}                                 
+
+.Topo {
+    display: flex;
+       
+}
+
+.Back {
+    position: relative;
+    width: 100vw;
+    height: 70vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.Logo-menu{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 91vw;
+    overflow: hidden;
+    margin: 30px;
+}
+
+
+.Corpo {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 5vw;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: roboto;
+}
+
+.Corpo h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+.Corpo p {
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+
+.Corpo button {
+    margin-top: 40px;
+    height: 50px;
+    width: 100px;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.Rodape{
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    position: relative;
+    justify-content: center;
+    
+}
+
+.Rodape img {
+    height: 80px;
+    width: 80px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .Declarative, .Components, .Single, .Jsx {
+    display: flex;
+    flex-direction: column;
+    column-gap: 0px;
+    row-gap: 0px;
+} */
+
+.Declarative h2, .Components h2, .Single h2, .Jsx h2 {
+    font-size: 1.1rem;
+    border: 0px;
+    padding: 0px;
+}
+.Declarative p, .Components p, .Single p, .Jsx p {
+    font-size: 0.7rem;
+    border: 0px;
+    padding: 0px;
+}
